@@ -17,9 +17,9 @@ def Input_cardinals(browser,name,text):
 def main():
 
     #You can edit the message,the email and the password
-    custom_message = "Bonsoir,\nSaha ftourkoum u'\1F600' "
-    email = 'wearyscuttles@outlook.com'
-    password = 'H7G4cLq$eG'
+    custom_message = "Hello,\nI will send you an email later"
+    email = ''
+    password = ''
 
     #Creating a browser instance
     browser = uc.Chrome(driver_executable_path='./chromedriver/chromedriver.exe')
